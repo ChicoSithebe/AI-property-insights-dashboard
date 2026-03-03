@@ -112,6 +112,7 @@ This dashboard:
 - Identifies contracts requiring cost containment  
 - Enables forward planning for future rent commitments  
 - Provides finance teams with structured exposure analysis  
+<img width="953" height="450" alt="Payments_Rent" src="https://github.com/user-attachments/assets/932d3194-d3d5-45b8-bded-558af88d2853" />
 
 ---
 
@@ -141,6 +142,7 @@ The system:
 **⏱ Decision Velocity KPI**
 - Faster insight generation  
 - Reduced analytics bottleneck  
+<img width="959" height="413" alt="AI for immediate updates" src="https://github.com/user-attachments/assets/defb7483-e15c-4ce2-ae9f-dc56d47a8bc2" />
 
 ---
 
@@ -184,6 +186,10 @@ This architecture ensures:
 ✅ Calculation transparency  
 ✅ Reduced manual spreadsheet risk  
 ✅ Scalable expansion (forecasting, scenario modeling)  
+
+<img width="959" height="411" alt="SQL database for reporting and managing Data" src="https://github.com/user-attachments/assets/84af968d-57fd-4725-bb8e-744567523ce8" />
+
+<img width="955" height="305" alt="Data Model" src="https://github.com/user-attachments/assets/783591b5-bb6a-45d1-a443-6d605458953c" />
 
 ---
 
