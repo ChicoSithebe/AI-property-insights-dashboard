@@ -1,18 +1,33 @@
-# Data Model
+# Data Model Architecture
 
-## Raw Tables
+## Raw Layer
 - raw_contracts
 - raw_conditions
 
-## Dimension
-- dim_contract (1 row per Contract Name)
+## Dimension Layer
+- dim_contract
+  - 1 row per unique Contract Name
+  - Derived fields:
+    - region_code
+    - offline_online
+    - years_to_end
+    - expired_lease_flag
 
-## Facts
-- fact_condition (payment lines)
-- fact_contract_metrics (initial vs current rent)
+## Fact Layer
+- fact_condition
+  - Payment condition lines
+  - valid_from / valid_to
+  - rent_yearly
 
-## View
+- fact_contract_metrics
+  - initial_rent_yearly
+  - current_rent_yearly
+  - rent_change_pct
+  - high_rent_flag
+
+## Analytical View
 - vw_contracts_merged
+  - Executive-ready reporting view
 
-## Metadata
+## Governance
 - metadata_schema (data dictionary)
