@@ -287,3 +287,20 @@ It is a:
 ✅ Governed Data Architecture  
 
 It transforms raw contract data into strategic intelligence that supports proactive management, financial optimization, and risk mitigation.
+
+---
+
+# 📁 Repository Structure
+
+ai-property-insights-dashboard/
+├── app/
+│ ├── dashboard.py
+│ └── requirements.txt
+├── data/
+│ └── (sample datasets only)
+├── docs/
+│ ├── data_model.md
+│ └── screenshots/
+├── .gitignore
+├── LICENSE
+└── README.md
